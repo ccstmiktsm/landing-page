@@ -1,0 +1,45 @@
+.hero-cc {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+    @include media-breakpoint-up(xl) {
+        padding-top: 136px;
+    }
+
+    h5,p {
+        @include font-size(18px);
+        line-height: 23px;
+    }
+
+    h5 {
+        margin-bottom: 10px
+    }
+    
+    h1 {
+        @include font-size(36px);
+        line-height: 55px;
+    }
+    
+    p {
+        line-height: 32px;
+        margin-bottom: 44px;
+        
+        @include media-breakpoint-up(xl) {
+            max-width: 450px;
+        }
+    }
+
+    .hero-illustration {
+        @include media-breakpoint-up(xl) {
+            width: 85%;
+        }
+    }
+    
+    .m-hero-illustration {
+        width: 90%;
+    }
+}
+
+.divisi-cc {
+    height: 1000px;
+}
