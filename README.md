@@ -11,4 +11,16 @@ Install dependency
 
 Setelah di clone dan install dependency, temen temen sudah bisa melakukan kontribusi terhadap kodenya di lokal dengan vscode atau yang lainnya.
 
-Apabila sudah dilakukan perubahan, silahkan push ke repository landing-page di akun pribadi, lalu lakukan pull request.
+Buat dulu branch baru
+> ``` git branch nama-kalian ```
+
+Pindah ke branch baru
+> ``` git checkout nama-branch-kalian-diatas ```
+
+Silahkan lakukan modifikasi.
+
+Apabila sudah dilakukan perubahan, silahkan push ke repository landing-page di akun pribadi.
+
+> ``` git push -u origin nama-branch-kalian-diatas ```
+
+lalu lakukan pull request.
