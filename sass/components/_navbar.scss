@@ -1,5 +1,17 @@
 .cc-header {
     transition: .3s;
+
+    @include media-breakpoint-down(md) {
+        background-color: $light;
+    }
+
+    @include media-breakpoint-up(lg) {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
     
     &.active {
         box-shadow: 0 1px 10px rgb(168 173 191 / 22%);
@@ -16,6 +28,7 @@
     
             &.active {
                 font-weight: 700;
+                color: $dark;
             }
         }
 

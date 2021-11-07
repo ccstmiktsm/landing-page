@@ -11075,6 +11075,20 @@ textarea.form-control-lg {
 .cc-header {
   transition: 0.3s;
 }
+@media (max-width: 767.98px) {
+  .cc-header {
+    background-color: #F7FAFE;
+  }
+}
+@media (min-width: 992px) {
+  .cc-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+}
 .cc-header.active {
   box-shadow: 0 1px 10px rgba(168, 173, 191, 0.22);
 }
@@ -11097,6 +11111,7 @@ textarea.form-control-lg {
 }
 .cc-header .nav-item .nav-link.active {
   font-weight: 700;
+  color: #1C2E4A;
 }
 .cc-header .nav-item:last-child .nav-link {
   padding-right: 0 !important;
@@ -11136,28 +11151,40 @@ body {
   }
 }
 .hero-cc h5, .hero-cc .h5, .hero-cc p {
-  font-size: 1.125rem;
-  line-height: 23px;
+  font-size: 1.0625rem;
+  line-height: 20px;
+}
+@media (min-width: 1200px) {
+  .hero-cc h5, .hero-cc .h5, .hero-cc p {
+    font-size: 1.125rem;
+    line-height: 23px;
+  }
 }
 .hero-cc h5, .hero-cc .h5 {
   margin-bottom: 10px;
 }
 .hero-cc h1, .hero-cc .h1 {
   font-size: calc(1.35rem + 1.2vw);
-  line-height: 55px;
+  line-height: 42px;
 }
 @media (min-width: 1200px) {
   .hero-cc h1, .hero-cc .h1 {
     font-size: 2.25rem;
   }
 }
+@media (min-width: 1200px) {
+  .hero-cc h1, .hero-cc .h1 {
+    line-height: 55px;
+  }
+}
 .hero-cc p {
   line-height: 32px;
-  margin-bottom: 44px;
+  margin-bottom: 32px;
 }
 @media (min-width: 1200px) {
   .hero-cc p {
     max-width: 450px;
+    margin-bottom: 44px;
   }
 }
 @media (min-width: 1200px) {
