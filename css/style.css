@@ -11148,6 +11148,7 @@ body {
 @media (min-width: 1200px) {
   .hero-cc {
     padding-top: 136px;
+    padding-bottom: 65px;
   }
 }
 .hero-cc h5, .hero-cc .h5, .hero-cc p {
