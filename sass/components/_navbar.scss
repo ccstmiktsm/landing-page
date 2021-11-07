@@ -1,7 +1,7 @@
 .cc-header {
     transition: .3s;
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(lg) {
         background-color: $light;
     }
 

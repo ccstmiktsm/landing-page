@@ -1,0 +1,23 @@
+.card {
+    &.card-shadow-cc {
+        border-radius: 15px;
+        border-color: transparent;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        
+        @include media-breakpoint-down(md) {
+            margin-bottom: 20px;
+        }
+
+        .card-body {
+            box-sizing: border-box;
+            
+            @include media-breakpoint-up(xl) {
+                padding: 40px 30px;
+            }
+            
+            @include media-breakpoint-up(xxl) {
+                padding: 50px 40px;
+            }
+        }
+    }
+}

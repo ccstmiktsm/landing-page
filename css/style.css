@@ -11075,7 +11075,7 @@ textarea.form-control-lg {
 .cc-header {
   transition: 0.3s;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .cc-header {
     background-color: #F9FCFF;
   }
@@ -11137,6 +11137,30 @@ textarea.form-control-lg {
   box-shadow: none;
 }
 
+.card.card-shadow-cc {
+  border-radius: 15px;
+  border-color: transparent;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+@media (max-width: 767.98px) {
+  .card.card-shadow-cc {
+    margin-bottom: 20px;
+  }
+}
+.card.card-shadow-cc .card-body {
+  box-sizing: border-box;
+}
+@media (min-width: 1200px) {
+  .card.card-shadow-cc .card-body {
+    padding: 40px 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .card.card-shadow-cc .card-body {
+    padding: 50px 40px;
+  }
+}
+
 body {
   font-family: "Mulish", sans-serif;
 }
@@ -11149,11 +11173,21 @@ body {
 }
 .title-section h3, .title-section .h3 {
   color: #1C2E4A;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.275rem + 0.3vw);
   line-height: 38px;
   margin-bottom: 38px;
 }
 @media (min-width: 1200px) {
+  .title-section h3, .title-section .h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .title-section h3, .title-section .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
   .title-section h3, .title-section .h3 {
     font-size: 1.75rem;
   }
@@ -11165,6 +11199,11 @@ body {
 .hero-cc {
   padding-top: 100px;
   padding-bottom: 50px;
+}
+@media (max-width: 991.98px) {
+  .hero-cc {
+    text-align: center;
+  }
 }
 @media (min-width: 1200px) {
   .hero-cc {
@@ -11178,7 +11217,7 @@ body {
   }
 }
 .hero-cc h5, .hero-cc .h5, .hero-cc p {
-  font-size: 1.0625rem;
+  font-size: 1rem;
   line-height: 20px;
 }
 @media (min-width: 1400px) {
@@ -11191,17 +11230,23 @@ body {
   margin-bottom: 10px;
 }
 .hero-cc h1, .hero-cc .h1 {
-  font-size: calc(1.35rem + 1.2vw);
+  font-size: calc(1.325rem + 0.9vw);
   line-height: 42px;
 }
 @media (min-width: 1200px) {
   .hero-cc h1, .hero-cc .h1 {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1200px) {
   .hero-cc h1, .hero-cc .h1 {
+    font-size: calc(1.35rem + 1.2vw);
     line-height: 48px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .hero-cc h1, .hero-cc .h1 {
+    font-size: 2.25rem;
   }
 }
 @media (min-width: 1400px) {
@@ -11234,21 +11279,19 @@ body {
 }
 
 .divisi-cc {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 30px;
-  height: 1000px;
-}
-@media (min-width: 992px) {
-  .divisi-cc {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 }
 @media (min-width: 1400px) {
   .divisi-cc {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+}
+.divisi-cc .card-shadow-cc .divisi-illustration {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
