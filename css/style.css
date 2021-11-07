@@ -11141,21 +11141,47 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+.title-section p {
+  color: #21C8B4;
+  font-size: 1.125rem;
+  line-height: 21px;
+  margin-bottom: 12px;
+}
+.title-section h3, .title-section .h3 {
+  color: #1C2E4A;
+  font-size: calc(1.3rem + 0.6vw);
+  line-height: 38px;
+  margin-bottom: 38px;
+}
+@media (min-width: 1200px) {
+  .title-section h3, .title-section .h3 {
+    font-size: 1.75rem;
+  }
+}
+.title-section p, .title-section h3, .title-section .h3 {
+  font-weight: 700;
+}
+
 .hero-cc {
   padding-top: 100px;
   padding-bottom: 50px;
 }
 @media (min-width: 1200px) {
   .hero-cc {
+    padding-top: 125px;
+  }
+}
+@media (min-width: 1400px) {
+  .hero-cc {
     padding-top: 136px;
-    padding-bottom: 65px;
+    padding-bottom: 80px;
   }
 }
 .hero-cc h5, .hero-cc .h5, .hero-cc p {
   font-size: 1.0625rem;
   line-height: 20px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .hero-cc h5, .hero-cc .h5, .hero-cc p {
     font-size: 1.125rem;
     line-height: 23px;
@@ -11175,6 +11201,11 @@ body {
 }
 @media (min-width: 1200px) {
   .hero-cc h1, .hero-cc .h1 {
+    line-height: 48px;
+  }
+}
+@media (min-width: 1400px) {
+  .hero-cc h1, .hero-cc .h1 {
     line-height: 55px;
   }
 }
@@ -11182,13 +11213,18 @@ body {
   line-height: 32px;
   margin-bottom: 32px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .hero-cc p {
     max-width: 450px;
     margin-bottom: 44px;
   }
 }
 @media (min-width: 1200px) {
+  .hero-cc .hero-illustration {
+    width: 83%;
+  }
+}
+@media (min-width: 1400px) {
   .hero-cc .hero-illustration {
     width: 85%;
   }
@@ -11198,7 +11234,21 @@ body {
 }
 
 .divisi-cc {
+  padding-top: 30px;
+  padding-bottom: 30px;
   height: 1000px;
+}
+@media (min-width: 992px) {
+  .divisi-cc {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1400px) {
+  .divisi-cc {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
