@@ -1,17 +1,21 @@
 body {
     font-family: 'Mulish', sans-serif;
+    color: $dark;
 }
 
 .title-section {
     p {
         color: $success;
-        @include font-size(18px);
         line-height: 21px;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
+        
+        @include media-breakpoint-up(xl) {
+            @include font-size(18px);
+            margin-bottom: 12px;
+        }
     }
     
     h3 {
-        color: $dark;
         @include font-size(24px);
         line-height: 38px;
         margin-bottom: 38px;
