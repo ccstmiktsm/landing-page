@@ -5,8 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
         integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+        integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/css/style.css">
     <title>Home - Computer Club</title>
@@ -439,20 +443,59 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-xl-4 item">
-                    <a href="./images/galeri/1.jpg" class="fancybox" data-fancybox="gallery1">
-                        <img src="./images/galeri/1.jpg" class="img-fluid rounded" alt="ccjouney">
+                <div class="col-12 col-md-6 col-xl-4 mb-4">
+                    <a href="./images/galeri/1.jpg" data-lightbox="roadtrip" data-title="CCJouney">
+                        <img src="./images/galeri/1.jpg" class="img-fluid rounded" alt="CCJouney">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-4">
+                    <a href="./images/galeri/7.jpg" data-lightbox="roadtrip" data-title="CCDedicated">
+                        <img src="./images/galeri/7.jpg" class="img-fluid rounded" alt="CCDedicated">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-4">
+                    <a href="./images/galeri/17.jpg" data-lightbox="roadtrip" data-title="CCHut-19">
+                        <img src="./images/galeri/17.jpg" class="img-fluid rounded" alt="CCHut-19">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-4">
+                    <a href="./images/galeri/16.jpg" data-lightbox="roadtrip" data-title="Next Generation 2019">
+                        <img src="./images/galeri/16.jpg" class="img-fluid rounded" alt="Next Generation 2019">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-4">
+                    <a href="./images/galeri/18.jpg" data-lightbox="roadtrip"
+                        data-title="Pemateri Next Generation 2020">
+                        <img src="./images/galeri/18.jpg" class="img-fluid rounded" alt="Pemateri Next Generation 2020">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 mb-4">
+                    <a href="./images/galeri/8.jpg" data-lightbox="roadtrip" data-title="NgabuburIT">
+                        <img src="./images/galeri/8.jpg" class="img-fluid rounded" alt="NgabuburIT">
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="testimonial-cc">
+        <div class="container">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ut nobis incidunt dolore recusandae
+            voluptatum? Impedit earum blanditiis, reprehenderit exercitationem autem beatae modi delectus eius ipsam
+            molestias nobis laborum eos ex nesciunt placeat cupiditate ab et. Deserunt quos, voluptatem, repudiandae cum
+            architecto esse, explicabo nisi reprehenderit eius beatae quas dicta in expedita asperiores sed tempora
+            totam aliquam? Aut veritatis error, quas ab, consequuntur mollitia, excepturi in perferendis voluptatem
+            laboriosam incidunt quis provident! Dolor totam repellat, fugit, itaque earum nobis odio dicta omnis placeat
+            sed labore corrupti ipsum numquam? Nobis quisquam commodi autem porro ipsa sequi eum vitae natus incidunt
+            facere.
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"
+        integrity="sha512-6gudNVbNM/cVsLUMOb8g2b/RBqtQJ3aDfRFgU+5paeaCTtbYY/Dg00MzZq7r6RvJGI2KKtPBhjkHGTL/iOe21A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         var scrollPosition = window.scrollY;
@@ -471,6 +514,11 @@
             }
 
         });
+
+        lightbox.option({
+            'wrapAround': true,
+            'disableScrolling': true
+        })
     </script>
 </body>
 
