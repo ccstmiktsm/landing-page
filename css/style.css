@@ -11333,4 +11333,16 @@ body {
   }
 }
 
+.about-cc {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #F9FCFF;
+}
+@media (min-width: 1400px) {
+  .about-cc {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
