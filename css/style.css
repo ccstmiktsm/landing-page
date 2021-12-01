@@ -11345,4 +11345,15 @@ body {
   }
 }
 
+.gallery-cc {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+@media (min-width: 1400px) {
+  .gallery-cc {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
