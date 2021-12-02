@@ -11350,12 +11350,6 @@ body {
   padding-bottom: 30px;
   position: relative;
 }
-@media (min-width: 1400px) {
-  .gallery-cc {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
 .gallery-cc::before {
   content: "";
   display: inline-block;
@@ -11366,6 +11360,12 @@ body {
   bottom: 30%;
   z-index: -1;
   background: linear-gradient(180deg, #F9FCFF 0%, rgba(249, 252, 255, 0) 100%);
+}
+@media (min-width: 1400px) {
+  .gallery-cc {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

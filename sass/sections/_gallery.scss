@@ -3,11 +3,6 @@
     padding-bottom: 30px;
     position: relative;
 
-    @include media-breakpoint-up(xxl) {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
     &::before {
         content: "";
         display: inline-block;
@@ -18,5 +13,10 @@
         bottom: 30%;
         z-index: -1;
         background: linear-gradient(180deg, $light 0%, rgba(249, 252, 255, 0) 100%);
+    }
+
+    @include media-breakpoint-up(xxl) {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
