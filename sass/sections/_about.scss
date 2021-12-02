@@ -3,8 +3,31 @@
     padding-bottom: 30px;
     background-color: $light;
 
-    @include media-breakpoint-up(xxl) {
-        padding-top: 60px;
+    @include media-breakpoint-up(xl) {
+        padding-top: 70px;
         padding-bottom: 60px;
+    }
+    
+    @include media-breakpoint-up(xxl) {
+        padding-top: 100px;
+    }
+
+    img {
+        @include media-breakpoint-up(lg) {
+            max-width: calc(100% - 16px);
+        }
+        @include media-breakpoint-up(xl) {
+            max-width: calc(100% - 40px);
+        }
+    }
+
+    .desc {
+        color: $primary;
+        line-height: 28px;
+        opacity: 0.5;
+
+        @include media-breakpoint-up(xxl) {
+            max-width: 426px;
+        }
     }
 }
