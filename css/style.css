@@ -11508,4 +11508,21 @@ body {
   }
 }
 
+.footer-cc .sosmed {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-color: #8D97A4;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s;
+}
+.footer-cc .sosmed:hover {
+  background-color: #1C2E4A;
+}
+.footer-cc .sosmed span {
+  line-height: 32px;
+}
+
 /*# sourceMappingURL=style.css.map */
