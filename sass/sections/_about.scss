@@ -22,9 +22,8 @@
     }
 
     .desc {
-        color: $primary;
+        color: #91A0B7;
         line-height: 28px;
-        opacity: 0.5;
 
         @include media-breakpoint-up(xxl) {
             max-width: 426px;
