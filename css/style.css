@@ -11142,11 +11142,6 @@ textarea.form-control-lg {
   border-color: transparent;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 }
-@media (max-width: 991.98px) {
-  .card.card-shadow-cc {
-    margin-bottom: 20px;
-  }
-}
 .card.card-shadow-cc .card-body {
   box-sizing: border-box;
   padding-top: 25px;
@@ -11181,6 +11176,33 @@ textarea.form-control-lg {
 .card.card-shadow-cc .card-body .card-text {
   line-height: 28px;
   color: #94A1B7;
+}
+.card.card-article .card-img-top {
+  margin: 20px;
+  width: auto;
+}
+.card.card-article .card-body {
+  padding: 4px 33px 33px 33px;
+}
+.card.card-article .card-body .card-title {
+  line-height: 32px;
+  margin-bottom: 14px;
+}
+@media (min-width: 1200px) {
+  .card.card-article .card-body .card-title {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1400px) {
+  .card.card-article .card-body .card-title {
+    line-height: 34px;
+    font-size: calc(1.2625rem + 0.15vw);
+  }
+}
+@media (min-width: 1400px) and (min-width: 1200px) {
+  .card.card-article .card-body .card-title {
+    font-size: 1.375rem;
+  }
 }
 
 body {
@@ -11407,7 +11429,6 @@ body {
 .testimonial-cc {
   padding-top: 50px;
   padding-bottom: 70px;
-  margin-bottom: 1000px;
   background-image: url("../images/galeri/17.jpg");
   background-position: center;
   background-size: cover;
@@ -11473,6 +11494,17 @@ body {
     max-width: 584px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+.newsletter-cc {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+@media (min-width: 1400px) {
+  .newsletter-cc {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
