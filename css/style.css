@@ -11072,16 +11072,16 @@ textarea.form-control-lg {
   font-weight: 800;
 }
 
-.cc-header {
+.header-cc {
   transition: 0.3s;
 }
 @media (max-width: 991.98px) {
-  .cc-header {
+  .header-cc {
     background-color: #F9FCFF;
   }
 }
 @media (min-width: 992px) {
-  .cc-header {
+  .header-cc {
     position: fixed;
     top: 0;
     right: 0;
@@ -11089,31 +11089,31 @@ textarea.form-control-lg {
     z-index: 1030;
   }
 }
-.cc-header.active {
+.header-cc.active {
   box-shadow: 0 1px 10px rgba(168, 173, 191, 0.22);
 }
-.cc-header .navbar-toggler:focus, .cc-header .navbar-toggler.focus {
+.header-cc .navbar-toggler:focus, .header-cc .navbar-toggler.focus {
   outline: 0;
   box-shadow: none;
 }
-.cc-header .navbar-toggler.disabled, .cc-header .navbar-toggler:disabled {
+.header-cc .navbar-toggler.disabled, .header-cc .navbar-toggler:disabled {
   box-shadow: none;
 }
-.cc-header .navbar-toggler:not(:disabled):not(.disabled):active, .cc-header .navbar-toggler:not(:disabled):not(.disabled).active {
+.header-cc .navbar-toggler:not(:disabled):not(.disabled):active, .header-cc .navbar-toggler:not(:disabled):not(.disabled).active {
   box-shadow: none;
 }
-.cc-header .navbar-toggler:not(:disabled):not(.disabled):active:focus, .cc-header .navbar-toggler:not(:disabled):not(.disabled).active:focus {
+.header-cc .navbar-toggler:not(:disabled):not(.disabled):active:focus, .header-cc .navbar-toggler:not(:disabled):not(.disabled).active:focus {
   box-shadow: none;
 }
-.cc-header .nav-item .nav-link {
+.header-cc .nav-item .nav-link {
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
-.cc-header .nav-item .nav-link.active {
+.header-cc .nav-item .nav-link.active {
   font-weight: 700;
   color: #1C2E4A;
 }
-.cc-header .nav-item:last-child .nav-link {
+.header-cc .nav-item:last-child .nav-link {
   padding-right: 0 !important;
 }
 
