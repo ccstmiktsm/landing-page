@@ -11205,6 +11205,10 @@ textarea.form-control-lg {
   }
 }
 
+:root {
+  scroll-behavior: auto;
+}
+
 body {
   font-family: "Mulish", sans-serif;
   color: #1C2E4A;
